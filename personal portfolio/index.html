@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+          <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">SUMAN JANGID</p>
+            </div>
+
+
+            <div class="nav-menu"  id="mynevmenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                         <div class="circle"></div>
+                    </li>
+
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link ">About</a>
+                         <div class="circle"></div>
+                    </li>
+
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link ">Projects</a>
+                         <div class="circle"></div>
+                    </li>
+
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link ">Contact</a>
+                         <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+
+
+        <!-- dark mode -->
+        <div class="mode">
+           <div class="moon-sun" id="toggle-switch" >
+            <i class="fa fa-moon" id="moon"></i>
+              <i class="fa fa-sun" id="sun"></i>
+           </div>   
+        </div>
+<div class="nav-menu-btn">
+    <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+</div>
+ </nav>
+
+
+ <!-- main -->
+    <main class="wrapper">
+        <section class="featured-box" id="home">
+            <div class="hello">
+                <p>Hello I,m</p>
+            </div>
+            <div class="featured-name">
+                <span class="typedtext"></span>
+            </div>
+            <div class="text-info">
+                <p>My Name is Suman!  </p>
+            </div>
+
+            <div class="text-btn">
+                 <button class="btn hire-btn">Hire-Me</button>
+                 <button class="btn">Download CV <i class="uil uil-file"></i></button>
+            </div>
+
+         <div class="socical_icons">
+            <div class="icon-circle"></div>
+             <div class="icon"><i class="uil uil-instragram"></i></div>
+             <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+             <div class="icon"><i class="uil uil-behance-alt"></i></div>
+             <div class="icon"><i class="uil uil-github-alt"></i></div>
+           
+         </div>
+         <div class="featured-image">
+            <div class="image">
+                <img src="" alt="">
+            </div>
+         </div>
+        </section>
+
+         <!-- about box -->
+        <section class="section" id="about">
+           <div class="top-header">
+            <h1>About Me</h1>
+           </div>
+           <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <figure class="about-me">
+                    <figcaption>
+                        <img src="" alt="" class="profile">
+                         <h2>Web Developer</h2>
+                         <p>Aspiring software engineer with a focus on Data Structures and Algorithms, and a love for building web applications. Eager to use my coding skills and creativity in an exciting tech role.</p>
+                    </figure>
+                    <button class="about-me-btn">Hire Me</button>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div class="skills-box">
+                    <span class="title">DSA</span>
+                    <div class="skill-bar ">
+                        <span class="skill-per dsa">
+                        <span class="tooltip">90%</span>
+                        </span>
+                    </div>
+                </div>
+            <div class="skills">
+                <div class="skills-box">
+                    <span class="title">HTML</span>
+                    <div class="skill-bar ">
+                        <span class="skill-per html">
+                        <span class="tooltip">80%</span>
+
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="skills">
+                    <div class="skills-box">
+                        <span class="title">CSS</span>
+                        <div class="skill-bar ">
+                            <span class="skill-per css">
+                            <span class="tooltip">80%</span>
+    
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <div class="skills-box">
+                            <span class="title">JavaScript</span>
+                            <div class="skill-bar ">
+                                <span class="skill-per js">
+                                <span class="tooltip">80%</span>
+        
+                                </span>
+                            </div>
+                        </div>  
+            </div>
+           </div>
+        </section>
+
+
+        <!-- project sectionn -->
+
+        
+    <section class="ftco-section" id="project-section">
+        <div class="container">
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+              <h1 class="big big-2">Projects</h1>
+              <h2 class="mb-4">Projects</h2>
+              <p>Below are the sample Data Analytics projects on SQL, Python, Power BI & ML.</p>
+            </div>
+          </div>
+          <div class="row d-flex">
+            <div class="col-md-4 d-flex ftco-animate">
+                <div class="blog-entry justify-content-end">
+                <a href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql" class="block-20 zoom-effect" style="background-image: url('images/proj_1.jpg');">
+                </a>
+                <div class="text mt-3 float-right d-block">
+  
+                  <h3 class="heading"><a href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql">Digital Music Store Data Analysis using SQL</a></h3>
+                  <p>Analyzed music store data using advanced SQL queires to identify gaps and increase the business growth.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex ftco-animate">
+                <div class="blog-entry justify-content-end">
+                <a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb" class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');">
+                </a>
+                <div class="text mt-3 float-right d-block">
+  
+                  <h3 class="heading"><a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb">Data Analysis using Python Project for Beginners</a></h3>
+                  <p>Performed exploratory data analysis on diwali sales data using Python to improve the customer experience.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex ftco-animate">
+                <div class="blog-entry">
+                <a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
+                </a>
+                <div class="text mt-3 float-right d-block">
+  
+                  <h3 class="heading"><a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg">Power BI Sales dashboard Project for Beginners</a></h3>
+                  <p>Designed a power bi dashboard for Madhav Store to track and analyze the online sales data acorss India.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      <br>
+          <!-- added justify-content-center to center align the last two projects -->
+          <div class="row d-flex justify-content-center">  
+              <div class="col-md-4 d-flex ftco-animate">
+                  <div class="blog-entry justify-content-end">
+                  <a href="https://github.com/rishabhnmishra/sales_forecasting/tree/main" class="block-20 zoom-effect" style="background-image: url('images/proj_4.jpg');">
+                  </a>
+                  <div class="text mt-3 float-right d-block">
+    
+                    <h3 class="heading"><a href="https://github.com/rishabhnmishra/sales_forecasting/tree/main">Sales Forecast- Time Series Forecasting</a></h3>
+                    <p>Used multiple machine learning models to forecast sales (retail store) and performed time series analysis.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex ftco-animate">
+                  <div class="blog-entry justify-content-end">
+                  <a href="https://github.com/rishabhnmishra/customer_segmentation/blob/main/Customer_Segmentation-final.ipynb" class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpg');">
+                  </a>
+                  <div class="text mt-3 float-right d-block">
+    
+                    <h3 class="heading"><a href="https://github.com/rishabhnmishra/customer_segmentation/blob/main/Customer_Segmentation-final.ipynb">Customer Segmentation using clustering model</a></h3>
+                    <p>Developed a ML model to give various recommendations of financial products &amp; services on target customer groups.</p>
+                  </div>
+                </div>
+              </div>
+           </div>
+        </div>
+      </section>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+    </div>
+</body>
+</html>
